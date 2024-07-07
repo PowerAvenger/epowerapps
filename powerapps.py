@@ -16,7 +16,7 @@ st.write("Visita mi perfil de  [Linkedin](%s)" % url_linkedin)
 col1,col2=st.columns(2)
 with col1:
     st.image('images/telemindex.jpg',caption='Cálculo de precios de indexado')
-    url1 = "https://escalacvpy-josevidal.streamlit.app/"
+    url1 = "https://telemindexpy-josevidal.streamlit.app/"
     st.write("Calcula los precios medios de indexado con [Telemindex](%s)" % url1)
     #st.page_link('https://telemindexpy-josevidal.streamlit.app/', label = 'Telemindex')
 with col2:
