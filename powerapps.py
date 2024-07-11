@@ -8,21 +8,32 @@ st.set_page_config(
     layout='centered'
 )
 st.title("PowerAPPs disponibles")
-st.subheader("Powered by Jose Vidal")
+st.subheader('Powered by Jose Vidal',divider='rainbow')
 
-url_linkedin = "https://www.linkedin.com/in/jfvidalsierra/"
-st.write("Visita mi perfil de  [Linkedin](%s)" % url_linkedin)
+url_linkedin = "https://www.linkedin.com/posts/jfvidalsierra_powerapps-activity-7216715360010461184-YhHj?utm_source=share&utm_medium=member_desktop"
+st.write("Recomienda, comenta y comparte en [Linkedin](%s)" % url_linkedin)
 
-col1,col2=st.columns(2)
+col1,col2,col3=st.columns(3)
 with col1:
-    st.image('images/telemindex.jpg',caption='Cálculo de precios de indexado')
-    url1 = "https://telemindexpy-josevidal.streamlit.app/"
-    st.write("Calcula los precios medios de indexado con [Telemindex](%s)" % url1)
-    #st.page_link('https://telemindexpy-josevidal.streamlit.app/', label = 'Telemindex')
+    st.markdown("Cálculo de indexados")
+    st.image('images/telemindex.jpg')
+    
 with col2:
-    st.image('images/escalacv.jpg',caption='Omie a todo color')
-    url2 = "https://escalacvpy-josevidal.streamlit.app/"
-    st.write("Disfruta OMIE a todo color basado en la [Escala Cavero-Vidal](%s)" % url2)
-    #st.markdown("check out this [link](%s)" % url2)
-    #st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
-    #st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
+    st.markdown(':rainbow[OMIE a todo color]')
+    st.image('images/escalacv.jpg')
+    
+with col3:
+    st.markdown('Compara FIJO vs PVPC')
+    st.image('images/fijovspvpc.jpg')
+    
+with st.container():
+    col1,col2,col3=st.columns(3)
+    with col1:
+        url1 = "https://telemindexpy-josevidal.streamlit.app/"
+        st.write("Calcula los precios medios de indexado con [Telemindex](%s)" % url1)
+    with col2:
+        url2 = "https://escalacvpy-josevidal.streamlit.app/"
+        st.write("Disfruta OMIE a todo color basado en la [Escala Cavero-Vidal](%s)" % url2)
+    with col3:
+        url3 = "https://fijovspvpcpy-josevidal.streamlit.app/"
+        st.write("Calcula el impacto del margen en el Tp) [Fijo vs PVPC](%s)" % url3)
