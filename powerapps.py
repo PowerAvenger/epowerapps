@@ -33,7 +33,7 @@ with col4:
 with st.container():
     col1,col2,col3,col4=st.columns(4)
     with col1:
-        url1 = "https://telemindexpy-josevidal.streamlit.app/"
+        url1 = "https://telemindex-josevidal.streamlit.app/"
         st.write("Calcula los precios medios de indexado con [Telemindex](%s)" % url1)
     with col2:
         url2 = "https://escalacvpy-josevidal.streamlit.app/"
