@@ -49,7 +49,9 @@ col31,col32,col33,col34=st.columns(4)
 with col31:
     st.markdown("Demanda Real")
     st.image('images/demanda.jpg')
-
+with col32:
+    st.markdown("Marginales")
+    st.image('images/marginales.jpg')
 with st.container():
     col41,col42,col43,col44=st.columns(4)
     with col41:
