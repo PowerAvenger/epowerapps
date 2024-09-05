@@ -55,3 +55,6 @@ with st.container():
     with col41:
         url5 = "https://demanda-josevidal.streamlit.app/"
         st.write("Simula la demanda real [Demanda](%s)" % url5)
+    with col42:
+        url6 = "https://marginales-by-josevidal.streamlit.app/"
+        st.write("Impacto de las tecnologías [marginales](%s) en el precio del mercado" % url6)
