@@ -42,20 +42,6 @@ with col14:
     st.write("Simula el precio medio de indexado a un año vista con [Simulindex](%s)" % url4)
     st.image('images/simulindex.jpg')
     
-#with st.container():
-#    col21,col22,col23,col24=st.columns(4)
-    #with col21:
-    #    url1 = "https://telemindex-josevidal.streamlit.app/"
-    #    st.write("Calcula los precios medios de indexado con [Telemindex](%s)" % url1)
-    #with col22:
-    #    url2 = "https://escalacvpy-josevidal.streamlit.app/"
-    #    st.write("Disfruta OMIE a todo color basado en la [Escala Cavero-Vidal](%s)" % url2)
-    #with col23:
-    #    url3 = "https://fijovspvpcpy-josevidal.streamlit.app/"
-    #    st.write("Calcula el impacto del margen en el Tp [Fijo vs PVPC](%s)" % url3)
-    #with col24:
-    #    url4 = "https://simulindexpy-josevidal.streamlit.app/"
-    #    st.write("Simula los precios de indexado a un año vista [Simulindex](%s)" % url4)
 
 col31,col32,col33,col34=st.columns(4)
 with col31:
@@ -76,16 +62,9 @@ with col33:
     st.subheader('Autoconsumo: Excedentes',divider='rainbow')
     st.write("Compara el coste regulado de tus [excedentes](%s) con la oferta en fijo" % url7)
     st.image('images/excedentes.jpg')
+with col34:
+    url8 = "https://omipvsomie-josevidal-superporraomie2024.streamlit.app/"
+    st.subheader('Especial superporreros2024',divider='rainbow')
+    st.write("¿Bates a OMIP en la lucha por el [MVPStarPower2024](%s)?" % url8)
+    st.image('images/omipvsomie.jpg')
 
-
-#with st.container():
-#    col41,col42,col43,col44=st.columns(4)
-    #with col41:
-    #    url5 = "https://demanda-josevidal.streamlit.app/"
-    #    st.write("Simula la demanda real [Demanda](%s)" % url5)
-    #with col42:
-    #    url6 = "https://marginales-by-josevidal.streamlit.app/"
-    #    st.write("Impacto de las tecnologías [marginales](%s) en el precio del mercado" % url6)
-    #with col43:
-    #    url7 = "https://excedentes-josevidal.streamlit.app/"
-    #    st.write("Calcula tus [excedentes](%s) en la tarifa regulada" % url7)
