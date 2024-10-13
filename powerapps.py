@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon=":bulb:",
     layout='wide'
 )
-st.title('PowerAPPs disponibles by Jose Vidal')
+st.title(':orange[e]PowerAPPs disponibles by Jose Vidal')
 #st.subheader('Powered by Jose Vidal',divider='rainbow')
 
 url_linkedin = "https://www.linkedin.com/posts/jfvidalsierra_powerapps-activity-7216715360010461184-YhHj?utm_source=share&utm_medium=member_desktop"
@@ -37,7 +37,7 @@ with col13:
 
 with col14:
     #st.markdown('Simula indexados')
-    url4 = "https://simulindexpy-josevidal.streamlit.app/"
+    url4 = "https://simulindex-by-josevidal.streamlit.app/"
     st.subheader('Simulindex',divider='rainbow')
     st.write("Simula el precio medio de indexado a un año vista con [Simulindex](%s)" % url4)
     st.image('images/simulindex.jpg')
