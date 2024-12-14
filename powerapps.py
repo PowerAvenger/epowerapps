@@ -11,7 +11,7 @@ st.title(':orange[e]PowerAPPs© disponibles by Jose Vidal')
 #st.subheader('Powered by Jose Vidal',divider='rainbow')
 
 url_linkedin = "https://www.linkedin.com/posts/jfvidalsierra_powerapps-activity-7216715360010461184-YhHj?utm_source=share&utm_medium=member_desktop"
-st.write("Recomienda, comenta y comparte en [Linkedin](%s)" % url_linkedin)
+st.write("Recomienda, comenta y comparte en [Linkedin](%s). Gracias a :orange[Jesús López] por el empujoncito con el python." % url_linkedin)
 
 col11,col12,col13,col14,col15=st.columns(5)
 with col11:
