@@ -8,6 +8,7 @@ st.set_page_config(
     layout='wide'
 )
 st.title(':orange[e]PowerAPPs© disponibles by Jose Vidal')
+st.markdown("¡Sígueme en [Bluesky](https://bsky.app/profile/poweravenger.bsky.social)!")
 #st.subheader('Powered by Jose Vidal',divider='rainbow')
 
 url_linkedin = "https://www.linkedin.com/posts/jfvidalsierra_powerapps-activity-7216715360010461184-YhHj?utm_source=share&utm_medium=member_desktop"
