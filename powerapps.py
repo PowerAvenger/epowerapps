@@ -12,6 +12,7 @@ url_bluesky = 'https://bsky.app/profile/poweravenger.bsky.social'
 #st.markdown("¡Sígueme en [Bluesky](https://bsky.app/profile/poweravenger.bsky.social)!")
 
 url_linkedin = "https://www.linkedin.com/posts/jfvidalsierra_powerapps-activity-7216715360010461184-YhHj?utm_source=share&utm_medium=member_desktop"
+url_bluesky = 'https://bsky.app/profile/poweravenger.bsky.social'
 st.write("Recomienda, comenta y comparte en [Bluesky](%s). Gracias a :orange[Jesús López] por el empujoncito con el python." % url_bluesky)
 
 col11,col12,col13,col14,col15=st.columns(5)
@@ -73,5 +74,9 @@ with col24:
     st.subheader('Infografías REData',divider='rainbow')
     st.write("Otra forma de ver los datos de [REData](%s)" % url9)
     st.image('images/redata.jpg')
-
+with col25:
+    url10 = "https://sp25enpruebas-josevidal.streamlit.app/"
+    st.subheader('SPO: Sistema Predictivo OMIE',divider='rainbow')
+    st.write("Gana el [MVPStarPower] del año y bate a OMIP (%s)" % url10)
+    st.image('images/spo.jpg')
 
