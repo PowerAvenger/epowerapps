@@ -64,19 +64,19 @@ with col22:
     st.subheader('Autoconsumo: Excedentes',divider='rainbow')
     st.write("Compara el coste regulado de tus [excedentes](%s) con la oferta en fijo" % url7)
     st.image('images/excedentes.jpg')
+#with col23:
+#    url8 = "https://omipvsomie-josevidal-superporraomie2024.streamlit.app/"
+#    st.subheader('Especial superporreros2024',divider='rainbow')
+#    st.write("¿Bates a OMIP en la lucha por el [MVPStarPower2024](%s)?" % url8)
+#    st.image('images/omipvsomie.jpg')
 with col23:
-    url8 = "https://omipvsomie-josevidal-superporraomie2024.streamlit.app/"
-    st.subheader('Especial superporreros2024',divider='rainbow')
-    st.write("¿Bates a OMIP en la lucha por el [MVPStarPower2024](%s)?" % url8)
-    st.image('images/omipvsomie.jpg')
-with col24:
     url9 = "https://redata-by-josevidal.streamlit.app/"
     st.subheader('Infografías REData',divider='rainbow')
     st.write("Otra forma de ver los datos de [REData](%s)" % url9)
     st.image('images/redata.jpg')
-with col25:
-    url10 = "https://sp25enpruebas-josevidal.streamlit.app/"
-    st.subheader('SPO: Sistema Predictivo OMIE',divider='rainbow')
-    st.write("Gana el [MVPStarPower] del año y bate a OMIP (%s)" % url10)
+with col24:
+    url10 = "https://spo2425-josevidal.streamlit.app/"
+    st.subheader('SPO: Super Power OMIE 2024-2025',divider='rainbow')
+    st.write("Gana el [MVPStarPower](%s) del año y bate a OMIP!" % url10)
     st.image('images/spo.jpg')
 
